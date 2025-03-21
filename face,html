@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face</title>
+    <link rel="stylesheet" href="eye.css">
+</head>
+<style>
+     @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&family=Homemade+Apple&display=swap,700&family=Italiana&display=swap,700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Italiana&display=swap");
+button{
+    font-family: "Roboto", sans-serif;
+    border-radius: 0px;
+    background-color: transparent;
+    color:  #7f2549;
+    border-color: rgb(127, 37, 73);
+    border-width: 1px;
+    padding: 5px;
+    margin: 2px;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+button:hover{
+    background-color: #7f2549;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.bg-container{
+    background-color: #fdfbf8;
+    height: 100vh;
+    padding: 20px;
+    margin: 20px;
+}
+.beauty{
+    font-family: "Roboto";
+   color: #7f2549;
+   font-size: 40px;
+   padding-top: 20px;
+   padding: 20px;
+ 
+}
+.cat{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    color: #7f2549;
+    margin-top: 10px;
+}
+.blush{
+    height: 500px;
+    width: 400px;
+    padding: 10px;
+    transition-duration: 1s;
+   
+}
+.blush:hover{
+    transform: scale(1.1);
+}
+.shop-pro{
+   display: flex;
+  justify-content: center;
+  text-align: center;
+ 
+}
+.shop-bg{
+    background-color: #e9decd;
+    height: 700px;
+    width: 500px;
+}
+.pro-head{
+    font-family: "Cormorant";
+    font-size: 25px;
+    color: #4e3817;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+}
+.shop-but{
+    border-radius: 0px;
+    border-width: 1px;
+    height: 35px;
+    width: 400px;
+    font-family: "playfair display";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 10px;
+}
+</style>
+<body>
+    <div class="bg-container">
+        <div>
+            <h1 class="beauty">Browse All Beauty Products</h1>
+            <div class="shop-pro">
+                <div>
+                    <img src="https://glamourmakeupcosmetics.com/cdn/shop/files/ECOMM-SOFT-PINCH-LIQUID-CONTOUR-MELLOW_jpg_grande.webp?v=1737654776" class="blush">
+                    <h4 class="pro-head">Soft Pinch Liquid Contour</h4>
+                    <button class="shop-but">Add to bag - Rs-2,350</button>
+                </div>
+                <div>
+                    <img src="https://gargtrader.com/wp-content/uploads/2022/08/ezgif.com-gif-maker-26-1.png" class="blush">
+                    <h4 class="pro-head">Positive Light Liquid Luminizer</h4>
+                    <button class="shop-but">Add to bag - Rs-2,450</button>
+                </div>  <div>
+                    <img src="https://www.rarebeauty.com/cdn/shop/files/ECOMM-SP-LIQUID-BLUSH-DEWY-GRATEFUL.jpg?v=1727897143" class="blush">
+                    <h4 class="pro-head">Soft Pinch Liquid Blush</h4>
+                    <button class="shop-but">Add to bag - Rs-2,000</button>
+                </div>
+            </div>
+            <br>
+            <div class="shop-pro">
+                <div>
+                    <img src="https://www.rarebeauty.com/cdn/shop/files/ECOMM-RARE-ALBUM-ANNIVERSARY-KIT-SP-LIQUID-BLUSH-DUO-PRODUCT-BOX.jpg?v=1736373827" class="blush">
+                    <h4 class="pro-head">Soft Pinch Liquid Blush Duo</h4>
+                    <button class="shop-but">Add to bag - Rs-3,450</button>
+                </div>
+                <div>
+                    <img src="https://www.rarebeauty.com/cdn/shop/files/ECOMM-SP-MATTE-BOUNCY-BLUSH-HAPPY.jpg?v=1738367184&width=1024" class="blush">
+                    <h4 class="pro-head">Soft Pinch Matte Bouncy Blush</h4>
+                    <button class="shop-but">Add to bag - Rs-2,400</button>
+                </div>  <div>
+                    <img src="https://www.rarebeauty.com/cdn/shop/files/ECOMM-BOTF-SP-MINI-CHEEK-LIP-SET-BOX-PRODUCT-BOX.jpg?v=1734470115" class="blush">
+                    <h4 class="pro-head">Soft Pinch Mini Cheek & Lip Set</h4>
+                    <button class="shop-but">Add to bag - Rs-2,250</button>
+                </div>
+            </div>
+            <br>
+            <div class="shop-pro">
+                <div>
+                    <img src="https://www.rarebeauty.com/cdn/shop/products/Concealer-120C-SKU_495a66cb-05a5-41a6-9fcc-995cf0409eaa.jpg?v=1666328782" class="blush">
+                    <h4 class="pro-head">Liquid Touch Brightening Concealer</h4>
+                    <button class="shop-but">Add to bag - Rs-1,950</button>
+                </div>
+                <div>
+                    <img src="https://www.rarebeauty.com/cdn/shop/products/Concealer-100W-SKU_5bea0f14-cf53-4fbd-b371-9c507d882817_1440x.jpg?v=1666328782" class="blush">
+                    <h4 class="pro-head">Liquid Touch Weightless Foundation</h4>
+                    <button class="shop-but">Add to bag - Rs-2,150</button>
+                </div>  <div>
+                    <img src="https://www.kunchals.in/cdn/shop/files/Bronzer-Stick-Full-of-Life-SKU.jpg?v=1688122434" class="blush">
+                    <h4 class="pro-head">Warm Wishes Effortless Bronzer Stick</h4>
+                    <button class="shop-but">Add to bag - Rs-2,500</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</body>
+</html>

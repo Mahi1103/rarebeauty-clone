@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        
+        .bg-container{
+            background-color: #f5f5f5;
+            height: 100vh;
+            
+        }
+        .login-container{
+            background-color: transparent;
+            padding: 80px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2{
+            text-align: center;
+            color: #793131;
+            font-family: "lobster";
+            font-size: 60px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        input{
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #7f2549;
+            border-radius: 0px;
+            height: 40px;
+            width: 300px;
+
+        }
+        button{
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #7f2549;
+            border-radius: 0px;
+            background-color: #7f2549;
+            color:  #fff9f0 ;
+            cursor: pointer;
+        }
+       label{
+           color: #7f2549;
+           font-size: 20px;
+       }
+       .vl{
+        height: 600px;
+        border-left: 2px solid #7f2549;
+        margin:30px;
+       }
+       h3{
+        font-family: "lobaster";
+        color: #000000;
+        font-size: 45px;
+       }
+       a{
+        text-decoration: none;
+        color: rgb(100, 95, 95);
+       }
+    </style>
+</head>
+<body>
+  <div  class="bg-container">
+    
+    <div class="login-container">
+        <div>
+            <h3 >Sign in</h3>
+        <form>
+            <label for="email">Email</label> <br>
+            <input type="text" placeholder="Email" required><br>
+            <label for="password">Password</label> <br>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Sign in</button>
+            <p><a href="">Forget password?</a></p>
+        </form>
+        <p style="text-align: center;   color: rgb(100, 95, 95); font-size: 20px;">Manage subscriptions</p>
+    </div>
+    <div class="vl"></div>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <div>
+        <h3>New account</h3>
+            <button style=" height: 40px;width: 300px;">Create Account</button>
+        </div>
+    </div>
+    </div>
+      
+  </div>
+</body>
+</html>

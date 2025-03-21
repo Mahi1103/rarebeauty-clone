@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&family=Homemade+Apple&display=swap");
+*{
+    padding: 0%;
+    margin: 0%;
+   
+}
+ul{
+    list-style: none;
+    background-color:#fdfbf8 ;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+li{
+    display:inline ;
+    position: relative;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#7f2549;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1{
+    text-align: center;
+    color: #7f2549;
+    padding: 20px;
+    font-family: "Neue Hass Unica Regular";
+    font-size:20px;
+}
+.image{
+    height: 800px;
+    width: 100vw;
+}
+.selena{
+    border-radius: 1000px;
+    height: 650px;
+    width: 600px;
+    margin: 50px;
+}
+hr{
+    margin: 30px;
+    border: 1px solid #7f2549;
+}
+.head-1{
+    font-family:  "playfair display", serif;
+    font-size: 50px;
+    padding: 10px;
+ 
+}
+.para-1{
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+}
+.tag-1 {
+    color: #7f2549;
+     text-decoration-color: #7f2549;
+    padding: 10px;
+    text-decoration: underline;
+    margin: 10px;
+}
+.but-1{
+    border-color: #7f2549;
+    border-width: 1px;
+    border-style: solid;
+    height: 40px;
+    width: 130px;
+    background-color: transparent;
+    color: #7f2549;
+    font-family: "Neue Hass Unica Regular", sans-serif;
+}
+.rare{
+   background-color: #fff9f0;
+}
+.para-2{
+    font-family:"play fair display SC";
+    font-size: 50px;
+}
+.find{
+    font-family: "caveat";
+    font-size: 60px;
+}
+.women-1{
+    height: 500px;
+    width: 400px;
+    margin: 10px;
+}
+.women-2{
+    height:450px;
+    width: 400px;
+    padding: 40px;
+  
+}
+.best{
+    color: #7f2549;
+    padding: 20px;
+    margin: 20px;
+    font-size:20px;
+    font-family: "calibri";
+   text-align: left;
+   font-size: 40px;
+   left: 10px;
+}
+.shop{
+    color: #7f2549;
+    text-decoration: underline;
+    text-decoration-color: #7f2549;
+    padding: 20px;
+    margin: 20px;
+}
+.blush{
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    transition-duration: 1s;
+}
+.blush:hover{
+    transform: scale(1.1);
+}
+
+.bg-blush{
+    background-color: #e9ddcb;
+    padding: 20px;
+    text-align: center;
+   
+   
+}
+.blush-head{
+    font-family: "playfair display SC";
+    font-size: 20px;
+    padding: 20px;
+    width: 400px;
+}
+.blush-btn{
+    border-color: #7f2549;
+    border-width: 1px;
+    border-style: solid;
+    height: 50px;
+    width: 240px;
+   background-color:  #e9ddcb;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7f2549;
+    font-family: "playfair display sc";
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.blush-btn:hover{
+    background-color: #7f2549;
+    color: white;
+}
+.eye{
+    height: 600px;
+    width: 400px;
+    padding: 50px;
+    z-index: 1;
+    transition-duration: 1s;
+}
+.eye:hover{
+    transform: scale(1.1);
+}
+.lip{
+    height: 700px;
+    width: 600px;
+    padding: 80px;
+    margin: 50px;
+    z-index: 1;
+    transition:  1s;
+}
+.lip:hover{
+    transform: scale(1.1);
+}
+.face{
+    height: 600px;
+    width: 600px;
+    padding: 70px;
+    margin-bottom: 50px;
+    z-index: 1;
+    transition: 1s;
+}   
+.face:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.img-card{
+    position: relative;
+  
+   
+}
+.eye-text{
+    position: absolute;
+    top: 66%;
+    left: 22%;
+    color: #d43030;
+    font-family: "Homemade Apple";
+    font-size: 50px;
+}
+.lip-text{
+    position: absolute;
+    top: 79%;
+    left: 22%;
+    color: #d43030;
+    font-family: "homemade apple";
+    font-size: 50px;
+}
+.face-text{
+    position: absolute;
+    top: 77%;
+    left: 22%;
+    color: #d43030;
+    font-family: "homemade apple";
+    font-size: 50px;
+}
+.image-2{
+    height: 700px;
+    width: 800px;
+    padding: 50px;
+    margin: 50px;
+}
+.head-3{
+    font-family: "playfair display SC";
+    font-size: 40px;
+    padding: 20px;
+    width: 700px;
+    
+}
+.para-3{
+    width: 600px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+}
+.learn-btn{
+    border-color: #7f2549;
+    border-width: 1px;
+    border-style: solid;
+    height: 30px;
+    width: 300px;
+    background-color: #fff9f0;
+    text-transform: uppercase;
+    font-size: small;
+    color: #7f2549;
+    text-align: center;
+    font-family: "Neue Hass Unica Regular", sans-serif;
+    letter-spacing: 2px;
+}
+.bottom{
+    background-color: #ebe4d9;
+    padding: 20px;
+    text-align: center;
+  
+}
+.para-4{
+    font-family: "neue hass unica regular";
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #7f2549;
+    padding: 10px;
+    width: 400px;
+}
+.para-5{
+    font-family: "neue hass unica regular";
+    font-size: 15px;
+    color: #7f2549;
+    padding: 10px;
+    width: 400px;
+
+}
+.policy{
+    color: #7f2549;
+    text-decoration-color: #7f2549;
+   text-decoration: underline;
+   font-size: 15px;
+}
+input{
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-color: #7f2549;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #ebe4d9;
+}
+.btn-3{
+    height: 30px;
+    width: 100px;
+   background-color:#ebe4d9 ;
+   color: #7f2549;
+    border-color: #7f2549;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+}
+.shop{
+    color: #7f2549;
+    font-family: "neue hass unica regular";
+     text-transform: uppercase;
+     letter-spacing: 2px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
